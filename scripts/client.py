@@ -1,6 +1,16 @@
 class Client:
-    def __init__(self, name: str, client_id: str, client_secret: str, code: str, refresh_token: str,
-                 background_color: str, first_color: str, second_color: str, bar_label_color: str):
+    def __init__(
+        self,
+        name: str,
+        client_id: str,
+        client_secret: str,
+        code: str,
+        refresh_token: str,
+        background_color: str,
+        first_color: str,
+        second_color: str,
+        bar_label_color: str,
+    ):
         self.NAME = name
         self.CLIENT_ID = client_id
         self.CLIENT_SECRET = client_secret
